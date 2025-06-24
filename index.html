@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Monas Bellas Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="imagenes/Banner.png" alt="Banner Tienda" class="banner">
+  </header>
+
+  <main>
+    <section class="intro">
+  <p>Bienvenida a Monas Bellas Store
+    Donde la moda se vive con estilo y autenticidad. Nuestra colección está creada para resaltar tu belleza natural, con piezas seleccionadas cuidadosamente y un diseño pensado para empoderarte a diario.
+
+    ✨ Descubre desde prendas casuales hasta outfits para ocasiones especiales, con la calidad y tendencia que mereces.
+
+    Te invitamos a explorar nuestro catálogo, añadir tus favoritos al carrito, y disfrutar de una experiencia de compra cuidada y cercana. Porque Monas Bellas no solo vende ropa… ¡celebra tu estilo!</p>
+</section>
+    <section class="productos" id="productos"></section>
+
+    <aside class="carrito">
+      <h2>Carrito</h2>
+      <ul id="lista-carrito"></ul>
+      <p id="total">Total: $0</p><button id="btnContinuarCompra">Continuar con la compra</button>
+    </aside>
+  </main>
+
+  <section class="formulario-compra" id="formularioCompra" style="display: none;">
+  <h2>Formulario de Compra</h2>
+  <form id="formCompra">
+    <input type="text" id="nombre" placeholder="Nombre completo">
+    <input type="email" id="correo" placeholder="Correo electrónico">
+    <input type="text" id="direccion" placeholder="Dirección">
+    <input type="tel" id="telefono" placeholder="Teléfono">
+    <label>
+      <input type="checkbox" id="terminos"> Acepto los términos y condiciones
+    </label>
+    <div id="errores" class="errores"></div>
+    <button type="submit">Finalizar Compra</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p><strong>Términos y Condiciones:</strong> Todas las compras están sujetas a disponibilidad de stock. Los cambios se realizan dentro de los primeros 7 días hábiles con boleta y producto sin uso.</p>
+    <p><strong>Contacto:</strong></p>
+    <p>Email: contacto@monasbellas.cl</p>
+    <p>Teléfono: +56 9 1234 5678</p>
+    <p>Síguenos en Instagram: <a href="https://www.instagram.com/monasbellas_store" target="_blank">@monasbellas_store</a></p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
